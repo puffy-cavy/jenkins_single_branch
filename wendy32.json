@@ -1,0 +1,11 @@
+{
+    "Resources": {
+        "wendytest": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "wendy-test32"
+                
+            }
+        }
+    }
+}
