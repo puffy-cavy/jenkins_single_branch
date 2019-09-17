@@ -3,7 +3,6 @@ pipeline {
         docker{
             image 'amazonlinux'
             registryUrl 'https://hub.docker.com/'
-            registryCredentialsId 'dockerhub'
         }
     }
     stages {
