@@ -2,7 +2,6 @@ pipeline {
     agent{
         docker{
             image 'amazonlinux'
-            label 'latest'
         }
     }
     stages {
