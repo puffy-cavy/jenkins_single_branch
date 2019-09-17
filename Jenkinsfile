@@ -2,7 +2,7 @@ pipeline {
     agent{
         docker{
             image 'amazonlinux'
-            registryUrl 'https://hub.docker.com/'
+            registryUrl 'https://hub.docker.com/_/'
         }
     }
     stages {
