@@ -1,7 +1,7 @@
 pipeline {
     agent{
         docker{
-            image 'amazonlinux'
+            image 'node:amazonlinux'
         }
     }
     stages {
