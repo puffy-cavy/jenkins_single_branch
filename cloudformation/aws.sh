@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
 
-echo %PATH%
+export PATH=/usr/local/bin:$PATH
+
+
+aws configure --profile default
